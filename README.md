@@ -114,6 +114,10 @@ Para executar um script python, faça conforme o exemplo abaixo:
 ```sh
 docker-compose run --rm app python aulas/01.py
 ```
+Ou com muito subníveis, exemplo:
+```sh
+docker-compose run --rm app python aulas/02/teste.py
+```
 
 ## Sobre o projeto:
 

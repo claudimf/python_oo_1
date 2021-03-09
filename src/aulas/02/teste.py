@@ -3,11 +3,12 @@ from conta import Conta
 conta = Conta(123, "Nico", 55.5, 1000.0)
 
 print(conta)
-print(conta.numero)
-print(conta.titular)
-print(conta.saldo)
-print(conta.limite)
 
+# atributos privados
+print(conta._Conta__numero)
+print(conta._Conta__titular)
+print(conta._Conta__saldo)
+print(conta._Conta__limite)
 
 conta.extrato()
 conta.deposita(15.0)

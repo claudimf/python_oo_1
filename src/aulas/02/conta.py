@@ -15,3 +15,7 @@ class Conta:
 
     def saca(self, valor):
         self.__saldo -= valor
+
+    def transfere(self, valor, origem, destino):
+        origem.saca(valor)
+        destino.deposita(valor)

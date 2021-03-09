@@ -21,7 +21,7 @@ print("Cria conta 2")
 conta2 = Conta(321, "Marco", 100.0, 1000.0)
 conta2.extrato()
 print("Transfere da conta 2 para conta 1")
-conta2.transfere(10.0, conta2, conta)
+conta2.transfere(10.0, conta)
 conta2.extrato()
 
 
@@ -37,3 +37,6 @@ print(conta.get_titular())
 print("Define o limite")
 conta.limite = 2000.0
 print(conta.limite)
+
+
+conta.saca(3000.0)

@@ -1,4 +1,5 @@
 from conta import Conta
+from circulo import Circulo
 
 print("Cria conta 1")
 conta = Conta(123, "Nico", 55.5, 1000.0)
@@ -42,3 +43,5 @@ print(conta.limite)
 conta.saca(3000.0)
 print(Conta.codigo_banco())
 print(Conta.codigos_bancos())
+
+print(Circulo.PI)

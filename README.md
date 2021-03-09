@@ -174,3 +174,9 @@ docker-compose down && docker-compose up
 [2° Exemplos de formatação de strings](https://docs.python.org/3/library/string.html#formatexamples)
 
 [3° Built-in Functions](https://docs.python.org/3/library/functions.html)
+
+[4° Garbage Collection in Python](https://www.geeksforgeeks.org/garbage-collection-python/)
+
+[5° Library Garbage Collector](https://docs.python.org/3/library/gc.html)
+
+[6° Using Garbage Collector](https://pymotw.com/2/gc/)

@@ -40,3 +40,5 @@ print(conta.limite)
 
 
 conta.saca(3000.0)
+print(Conta.codigo_banco())
+print(Conta.codigos_bancos())
